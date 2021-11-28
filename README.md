@@ -58,16 +58,18 @@ cd bookshop-lp
 npm install
 npm start
 ```
-
-![Notifications API for SAP Launchpad Service](https://user-images.githubusercontent.com/8436161/143732782-32ed06c4-4d79-4745-8530-f43c37637808.png?raw=true)
+![Complete](https://user-images.githubusercontent.com/8436161/143735962-ca5f53f4-dc5b-458f-bfce-7f08ad1b9c69.png?raw=true)
 
 Congratulations! You have just triggered your first notification from a custom-built app successfully.
 
+![Notifications API for SAP Launchpad Service](https://user-images.githubusercontent.com/8436161/143732782-32ed06c4-4d79-4745-8530-f43c37637808.png?raw=true)
+
 Alternatively to running the application locally, you can also execute an HTTP client script that does the same for you. 
 
-If you face a problem with the example application or the description, feel free to create an [issue](https://github.com/jacobahtan/bootcamp-lp-bookshop-notifications/issues).
+If you are faced with any problem in regards to the example application or the description, feel free to create an [issue](https://github.com/jacobahtan/bootcamp-lp-bookshop-notifications/issues).
 
 ## References
+
 This repository project took reference from this [blog post, so do give it a good read for more explanation & breakdown](https://blogs.sap.com/2021/07/06/sending-notifications-from-sap-btp-applications-to-the-sap-fiori-launchpad/).
 
 
