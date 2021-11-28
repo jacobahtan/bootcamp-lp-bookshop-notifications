@@ -7,6 +7,8 @@ This project is developed for the purpose of an organised partner bootcamp. Part
 
 ## Pre-requisites
 1. Deployed the [Bookshop solution](https://github.com/jacobahtan/bootcamp-cap-bookshop) that is based on SAP Cloud Application Programming model, in your SAP Business Technology Platform trial account.
+
+
 ![CAP Deployment 01](https://user-images.githubusercontent.com/8436161/143733017-f38d3bea-5498-473d-aa1f-4f446f72c64c.png?raw=true)
 ![CAP Deployment 02](https://user-images.githubusercontent.com/8436161/143733030-dc069dbc-053f-41ff-92bd-9aef32c68dcc.png?raw=true)
 
@@ -21,59 +23,29 @@ Launchpad site settings in the admin UI.
 Don’t forget to enable the “Show Notifications” settings of the Launchpad site that you want to use.
 ![Notifications Setup 02](https://user-images.githubusercontent.com/8436161/143733115-b07f9cbb-6a67-4641-ae68-22c1ed1093ed.png?raw=true)
 
-Regardless whether you're using Visual Studio code or (`recommended`) SAP Business Application Studio, please ensure you have these components installed & setup in your local environment.
 
-> Check the following (line-by-line) command if they have already been installed, if not, install them with the respective commands below.
-
+## Let's Get Started
+**Step 1:** Clone this Git Repo into a `bookshop-lp` project folder.
+```bash
+git clone https://github.com/jacobahtan/bootcamp-lp-bookshop-notifications.git bookshop-lp
+```
+**Step 2:** Define a `unique app name` for your own Bookshop solution.
+We will utilise the existing SAP BTP services we've created for the bookshop solution to create additional service keys for the run time operation.
+```bash
+cf create-service-key bookshop-xsuaa-service uaa-key
+cf create-service-key bookshop-destination-service destination-key
+cf service-key bookshop-xsuaa-service uaa-key 
+cf service-key bookshop-destination-service destination-key
+```
+Replace each respective service key into the respective section of the [default-env.json](https://github.com/jacobahtan/bootcamp-lp-bookshop-notifications/blob/main/default-env.json) file.
 <p></p>
 <details>
-  <summary>Hint: Click here to check if your framework version is updated.</summary>
-   <p>
-  In most cases on SAP Business Application Studio, it should match and work fine. The tricky cases are coming from your local computers where we could not maintain the specific versions of all frameworks used. Thus, it is your responsibility to make sure you have the matching or latest version. If not, please follow through next step to install the frameworks in your local computer. 
-  <p> 
+  <summary>Hint: Still unsure where to insert the service key credentials.</summary>
 
-> Local Terminal from your Computer (Mac Terminal for this case)
-
-![Library Frameworks Local](https://user-images.githubusercontent.com/8436161/126598799-f79fa59c-ddc2-4ad5-bfc0-a76eb4ac47c7.png)
-
-> Bash Terminal from SAP Business Application Studio
-
-![Library Frameworks BAS](https://user-images.githubusercontent.com/8436161/126598825-84409e7e-d330-47c7-b87d-b4cca0556361.png)
+![Replace Service Keys](https://user-images.githubusercontent.com/8436161/143735203-57f3c08b-e4c9-4492-90fd-fe0cbe765bcc.gif)
 
 </details>
 <p></p>
-
-```bash
-node -v
-cf --version
-cds v
-mbt --version
-mta --version
-cf plugins
-```
-
-
-
-> Install (line-by-line) on the respective libraries if any one of them above is missing.
-
-```bash
-npm install -g @sap/cds-dk
-npm install -g @sap/cds
-npm install -g mta
-npm install -g mbt
-cf install-plugin multiapps
-```
-
-
-
-
-## Let's Get Started
-**Step 1:** Clone this Git Repo into a `bookshop` project folder.
-```bash
-git clone https://github.com/jacobtan89/bootcamp-cap-bookshop.git bookshop
-```
-**Step 2:** Define a `unique app name` for your own Bookshop solution.
-
 Open [bookshop/mta.yaml](mta.yaml), go to line 128, locate appname parameter and replace the following:  `<REPLACE_THIS_WITH_SUBDOMAIN>` with your Unique Subdomain Name. 
 
 ![SAP BTP Unique Subdomain](https://user-images.githubusercontent.com/8436161/126601437-fae4fe44-fa63-46c8-9819-f8c68aedda88.png)
