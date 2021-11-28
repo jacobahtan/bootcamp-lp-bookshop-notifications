@@ -1,4 +1,4 @@
-# Bookshop Solution for SAP BTP Developer Bootcamp - Launchpad Service with Notifications API
+# Bookshop Solution for SAP BTP Developer Bootcamp - SAP Launchpad Service with Notifications API
 
 This project is developed for the purpose of an organised partner bootcamp. Participants may clone the repository, install/build & run on your local environment or (`recommended`) SAP Business Application Studio. 
 
