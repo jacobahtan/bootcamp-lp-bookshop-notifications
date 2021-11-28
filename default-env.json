@@ -15,19 +15,7 @@
                 "instance_name": "notification-test-content-destination-service",
                 "binding_guid": "ae9d65c6-e542-4abd-95c7-94d70c0f52d9",
                 "binding_name": null,
-                "credentials": {
-                    "clientid": "sb-cloned073449a7b2e46b0aa551ee48c789f4f!b111216|destination-xsappname!b404",
-                    "clientsecret": "e11976d5-b673-43d6-aa96-612d9adffa74$2CmIv76y9Jf-D-jFs2WxKfGBzSWgMcnmZhbogJMCe6c=",
-                    "identityzone": "8221c96ftrial",
-                    "instanceid": "d073449a-7b2e-46b0-aa55-1ee48c789f4f",
-                    "tenantid": "2d496316-67c0-4dce-a398-0cb30cb28a35",
-                    "tenantmode": "dedicated",
-                    "uaadomain": "authentication.eu10.hana.ondemand.com",
-                    "uri": "https://destination-configuration.cfapps.eu10.hana.ondemand.com",
-                    "url": "https://8221c96ftrial.authentication.eu10.hana.ondemand.com",
-                    "verificationkey": "-----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzn1eBoaonn/Zrx2Z4UpnB8UZs/OsQSWlHipBZmOVEt/gqSyWZ6PwobJ+0o4My9yggklhXIWlHaBZO8I+Y6ecldtY9tb9t2BxHvwz2ADfQeaTyc4SpPpvkl35o4iBj6X3ElKaW9LMHk3x4b3P2oSky86epeFmwOMgg9KXfJ/VI6JokJHXrb44Ss1OOyjvhtd5kLI7CYLcHKx1CIsOiDZQyX9ZjuZ+aDspfQffib0DT7ie4EjuiqWkKg43B/onm4HOiDUlKSn8TxWP/fgYOWjyAhGz5MnwhcgOIOZbZ2IiFueNr90MW1kuk/1vmzOvv60PLW2/+pvWv4FjO0B+z9DhMwIDAQAB-----END PUBLIC KEY-----",
-                    "xsappname": "cloned073449a7b2e46b0aa551ee48c789f4f!b111216|destination-xsappname!b404"
-                },
+                "credentials": <REPLACE_GENERATED_SERVICE_KEY_HERE>,
                 "syslog_drain_url": null,
                 "volume_mounts": []
             }
@@ -45,23 +33,7 @@
                 "instance_name": "notification-test-content-xsuaa-service",
                 "binding_guid": "5d93c1b7-9940-4676-aeb0-6f055dc94b5a",
                 "binding_name": null,
-                "credentials": {
-                    "apiurl": "https://api.authentication.eu10.hana.ondemand.com",
-                    "clientid": "sb-managed_fiori_app!t111216",
-                    "clientsecret": "pMZP56m1lyIJ4J/+GZFs6w8eAo4=",
-                    "credential-type": "instance-secret",
-                    "identityzone": "8221c96ftrial",
-                    "identityzoneid": "2d496316-67c0-4dce-a398-0cb30cb28a35",
-                    "sburl": "https://internal-xsuaa.authentication.eu10.hana.ondemand.com",
-                    "subaccountid": "2d496316-67c0-4dce-a398-0cb30cb28a35",
-                    "tenantid": "2d496316-67c0-4dce-a398-0cb30cb28a35",
-                    "tenantmode": "dedicated",
-                    "uaadomain": "authentication.eu10.hana.ondemand.com",
-                    "url": "https://8221c96ftrial.authentication.eu10.hana.ondemand.com",
-                    "verificationkey": "-----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzn1eBoaonn/Zrx2Z4UpnB8UZs/OsQSWlHipBZmOVEt/gqSyWZ6PwobJ+0o4My9yggklhXIWlHaBZO8I+Y6ecldtY9tb9t2BxHvwz2ADfQeaTyc4SpPpvkl35o4iBj6X3ElKaW9LMHk3x4b3P2oSky86epeFmwOMgg9KXfJ/VI6JokJHXrb44Ss1OOyjvhtd5kLI7CYLcHKx1CIsOiDZQyX9ZjuZ+aDspfQffib0DT7ie4EjuiqWkKg43B/onm4HOiDUlKSn8TxWP/fgYOWjyAhGz5MnwhcgOIOZbZ2IiFueNr90MW1kuk/1vmzOvv60PLW2/+pvWv4FjO0B+z9DhMwIDAQAB-----END PUBLIC KEY-----",
-                    "xsappname": "managed_fiori_app!t111216",
-                    "zoneid": "2d496316-67c0-4dce-a398-0cb30cb28a35"
-                },
+                "credentials": <REPLACE_GENERATED_SERVICE_KEY_HERE>,
                 "syslog_drain_url": null,
                 "volume_mounts": []
             }
