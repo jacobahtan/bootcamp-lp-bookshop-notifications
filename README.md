@@ -1,8 +1,21 @@
-# Bookshop Solution for SAP BTP Developer Bootcamp
+# Bookshop Solution for SAP BTP Developer Bootcamp - Launchpad Service
 
 This project is developed for the purpose of an organised partner bootcamp. Participants may clone the repository, install/build & run on your local environment or (`recommended`) SAP Business Application Studio. It is an extended use case based on the topic of Digital Experience - SAP Launchpad; to illustrate a simple bookshop management solution with Notifications API services. _**To deploy this successful, please make sure you've completed the pre-requisite section.**_
 
+## Runtime Demo of Notifications API in SAP Launchpad
+![Notifications API for SAP Launchpad Service](https://user-images.githubusercontent.com/8436161/143732756-f79f8931-a706-4ff4-998e-b1a6ec74a344.png?raw=true)
+
 ## Pre-requisites
+1. Deployed the [Bookshop solution](https://github.com/jacobahtan/bootcamp-cap-bookshop) that is based on SAP Cloud Application Programming model, in your SAP Business Technology Platform trial account.
+
+2. Enable notification for custom applications on SAP BTP
+To enable custom apps to publish notifications, they need to send data to the service via a destination.
+Follow [this guide](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/d5429a2a5d9a4425a461aa06c4ee84e4.html) to generate the notification service’s credentials and create a destination based on these credentials.
+Launchpad site settings in the admin UI.
+![Notifications Setup 01](https://user-images.githubusercontent.com/8436161/143733113-c06c290e-b516-4ed1-afdc-249785848bd1.png?raw=true)
+Don’t forget to enable the “Show Notifications” settings of the Launchpad site that you want to use.
+![Notifications Setup 02](https://user-images.githubusercontent.com/8436161/143733115-b07f9cbb-6a67-4641-ae68-22c1ed1093ed.png?raw=true)
+
 Regardless whether you're using Visual Studio code or (`recommended`) SAP Business Application Studio, please ensure you have these components installed & setup in your local environment.
 
 > Check the following (line-by-line) command if they have already been installed, if not, install them with the respective commands below.
@@ -46,12 +59,7 @@ npm install -g mbt
 cf install-plugin multiapps
 ```
 
-And please make sure you have both of these SAP BTP services setup successfully in your BTP trial account: 
 
-`(1) SAP HANA Cloud` from SAP BTP Cockpit > Cloud Foundry > Spaces > dev > SAP HANA Cloud (make sure you select the option to "Allow ALL IP Addresses" during creation).
-![SAP BTP HANA Cloud](https://user-images.githubusercontent.com/8436161/128988191-f079627d-59c3-4015-a689-d4933613ba41.png)
-`(2) SAP Launchpad Service` from SAP BTP Cockpit > Services > Instances & Subscriptions > Create > SAP Launchpad Service. 
-![SAP BTP Launchpad Service](https://user-images.githubusercontent.com/8436161/128988248-0714b16f-48f1-4ec3-8e50-d72317019a06.png)
 
 
 ## Let's Get Started
