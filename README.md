@@ -37,6 +37,7 @@ git clone https://github.com/jacobahtan/bootcamp-lp-bookshop-notifications.git b
 ```
 **Step 2:** Create the required Service Keys for Local Runtime in SAP BAS.
 We will be utilising the existing SAP BTP services we've created for the bookshop solution to create additional service keys for the run time operation.
+_(below will only work if you've followed strictly to deploy the bookshop solution as part of the pre-requisite, where 2 BTP services would have been created automatically for you - bookshop-xsuaa-service & bookshop-destination-service)_
 ```bash
 cf create-service-key bookshop-xsuaa-service uaa-key
 cf create-service-key bookshop-destination-service destination-key
