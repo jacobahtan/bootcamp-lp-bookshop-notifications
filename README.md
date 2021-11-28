@@ -1,8 +1,8 @@
-# Bookshop Solution for SAP BTP Developer Bootcamp - Launchpad Service
+# Bookshop Solution for SAP BTP Developer Bootcamp - Launchpad Service with Notifications API
 
 This project is developed for the purpose of an organised partner bootcamp. Participants may clone the repository, install/build & run on your local environment or (`recommended`) SAP Business Application Studio. 
 
-It is an extended use case based on the topic of Digital Experience - SAP Launchpad; to illustrate a simple bookshop management solution with Notifications API services. 
+It is for an extended use case based on the topic of Digital Experience - SAP Launchpad Service; to illustrate a simple bookshop management solution with Notifications API Domain services. 
 
 _**To deploy this successful, please make sure you've completed the pre-requisite section.**_
 
@@ -19,7 +19,9 @@ _**To deploy this successful, please make sure you've completed the pre-requisit
 
 2. Enable notification for custom applications on SAP BTP
 To enable custom apps to publish notifications, they need to send data to the service via a destination.
+
 Follow [this guide](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/d5429a2a5d9a4425a461aa06c4ee84e4.html) to generate the notification service’s credentials and create a destination based on these credentials.
+![Launchpad Notifications Destination](https://user-images.githubusercontent.com/8436161/143769102-5b5f435a-684c-4070-a4c2-c0582363151e.png?raw=true)
 
 Launchpad site settings in the admin UI.
 ![Notifications Setup 01](https://user-images.githubusercontent.com/8436161/143733113-c06c290e-b516-4ed1-afdc-249785848bd1.png?raw=true)
