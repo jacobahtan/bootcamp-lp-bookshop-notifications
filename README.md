@@ -7,12 +7,17 @@ This project is developed for the purpose of an organised partner bootcamp. Part
 
 ## Pre-requisites
 1. Deployed the [Bookshop solution](https://github.com/jacobahtan/bootcamp-cap-bookshop) that is based on SAP Cloud Application Programming model, in your SAP Business Technology Platform trial account.
+![CAP Deployment 01](https://user-images.githubusercontent.com/8436161/143733017-f38d3bea-5498-473d-aa1f-4f446f72c64c.png?raw=true)
+![CAP Deployment 02](https://user-images.githubusercontent.com/8436161/143733030-dc069dbc-053f-41ff-92bd-9aef32c68dcc.png?raw=true)
+
 
 2. Enable notification for custom applications on SAP BTP
 To enable custom apps to publish notifications, they need to send data to the service via a destination.
 Follow [this guide](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/d5429a2a5d9a4425a461aa06c4ee84e4.html) to generate the notification service’s credentials and create a destination based on these credentials.
+
 Launchpad site settings in the admin UI.
 ![Notifications Setup 01](https://user-images.githubusercontent.com/8436161/143733113-c06c290e-b516-4ed1-afdc-249785848bd1.png?raw=true)
+
 Don’t forget to enable the “Show Notifications” settings of the Launchpad site that you want to use.
 ![Notifications Setup 02](https://user-images.githubusercontent.com/8436161/143733115-b07f9cbb-6a67-4641-ae68-22c1ed1093ed.png?raw=true)
 
