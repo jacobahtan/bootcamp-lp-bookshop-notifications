@@ -43,7 +43,7 @@ Replace each respective service key into the respective section of the [default-
   <summary>Hint: Still unsure where to insert the service key credentials.</summary>
 
 ![Replace Service Keys](https://user-images.githubusercontent.com/8436161/143735203-57f3c08b-e4c9-4492-90fd-fe0cbe765bcc.gif)
-<img src="https://user-images.githubusercontent.com/8436161/143735203-57f3c08b-e4c9-4492-90fd-fe0cbe765bcc.gif" width="400" height="790">
+<img src="https://user-images.githubusercontent.com/8436161/143735203-57f3c08b-e4c9-4492-90fd-fe0cbe765bcc.gif" width="100%">
 
 </details>
 <p></p>
