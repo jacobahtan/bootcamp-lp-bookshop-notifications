@@ -1,6 +1,10 @@
 # Bookshop Solution for SAP BTP Developer Bootcamp - Launchpad Service
 
-This project is developed for the purpose of an organised partner bootcamp. Participants may clone the repository, install/build & run on your local environment or (`recommended`) SAP Business Application Studio. It is an extended use case based on the topic of Digital Experience - SAP Launchpad; to illustrate a simple bookshop management solution with Notifications API services. _**To deploy this successful, please make sure you've completed the pre-requisite section.**_
+This project is developed for the purpose of an organised partner bootcamp. Participants may clone the repository, install/build & run on your local environment or (`recommended`) SAP Business Application Studio. 
+
+It is an extended use case based on the topic of Digital Experience - SAP Launchpad; to illustrate a simple bookshop management solution with Notifications API services. 
+
+_**To deploy this successful, please make sure you've completed the pre-requisite section.**_
 
 ## Runtime Demo of Notifications API in SAP Launchpad
 ![Notifications API for SAP Launchpad Service](https://user-images.githubusercontent.com/8436161/143732756-f79f8931-a706-4ff4-998e-b1a6ec74a344.png?raw=true)
